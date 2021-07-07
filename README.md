@@ -4,7 +4,7 @@ Sample App for demonstrating use of Android's Native OTP Assist SDK.
 
 ![](https://media.giphy.com/media/QnKcp31bIgRgvP27Kb/giphy.gif)
 
-Refer below document to intergrate Native OTP Assist.
+Refer the below document to intergrate Native OTP Assist.
 
 https://payumobile.gitbook.io/sdk-integration/android/otp-assist
 
