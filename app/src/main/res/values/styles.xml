@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PayU_BaseTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="PayU_ErrorViewStyle" parent="PayU_BaseTextViewStyle">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textColor">#de350b</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="PayUAddCard_Text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#8f9dbd</item>
+    </style>
+    <style name="PayU_EditText" parent="PayU_BaseTextViewStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0d1b2e</item>
+    </style>
+    <style name="PayU_ImageViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="PayUAddCard_TextTitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#0d1b2e</item>
+    </style>
+
+    <style name="PayUAddCard_TextLabel" parent="PayUAddCard_TextTitle">
+        <item name="android:textColor">#7b7b7b</item>
+    </style>
+    <style name="Pay_Proceed_Btn">
+
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/one_payu_baseTextColor</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/payu_selector_proceed_to_pay</item>
+    </style>
+</resources>
